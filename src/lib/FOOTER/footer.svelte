@@ -51,10 +51,6 @@
     </div>
 
   </div>
-
-  <div class="footer-bottom">
-    <p>Copyright © {year} <span class="brand-name">Ana</span>. All Rights Reserved.</p>
-  </div>
 </footer>
 
 <style>
@@ -184,13 +180,10 @@
     text-align: center;
     color: var(--color4);
     font-size: 0.9rem;
-    margin-left: 32rem;
+    margin-left: -85px;
   }
 
-  .footer-bottom .brand-name {
-    color: var(--accent-red);
-    font-weight: 600;
-  }
+
 
   @media (min-width: 768px) {
     .footer-bottom {

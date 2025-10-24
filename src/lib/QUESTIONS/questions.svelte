@@ -1,13 +1,8 @@
 <script>
   let faqs = [
     {
-      question: "What industries have you worked in as a product designer?",
-      answer: "I've worked across diverse industries, including technology, e-commerce, and creative digital services.",
-      open: false
-    },
-    {
       question: "Can I download your resume/CV for information ?",
-      answer: "Certainly! You can download my resume/CV directly from my website. It provides a comprehensive overview of my education, work experience, and design achievements.",
+      answer: "Certainly! You can download my resume/CV.",
       open: false
     },
     {
@@ -16,13 +11,8 @@
       open: false
     },
     {
-      question: "What tools do you use for your design work?",
-      answer: "I mainly use Figma, Adobe XD, Illustrator, and Photoshop, combined with prototyping and collaboration tools.",
-      open: false
-    },
-    {
-      question: "How do I navigate through your portfolio projects?",
-      answer: "My portfolio is structured with categories and filters, making it easy to browse projects by type or industry.",
+      question: "Do you prefer to work remotely or on-site?",
+      answer: "I currently live in Prague and I don't mind working in an office or remotely. If the job requires moving, I am also willing to do so.",
       open: false
     }
   ];

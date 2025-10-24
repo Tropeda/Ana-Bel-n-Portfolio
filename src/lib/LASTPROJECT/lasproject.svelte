@@ -8,6 +8,8 @@
       image: 'lasproject.png',
       reverse: false
     }
+    
+    
   ];
 </script>
 

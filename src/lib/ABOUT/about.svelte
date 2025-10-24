@@ -3,6 +3,18 @@
     { number: "600+", label: "Practical Hours" },
     { number: "200+", label: "Sleepless Hours" }
   ];
+
+  const cvPath = "/CV Ana-Belén.pdf";
+
+  function downloadCV() {
+    // Crear un enlace temporal para la descarga
+    const link = document.createElement('a');
+    link.href = cvPath;
+    link.download = 'Ana_Belen_CV.pdf'; // Nombre con el que se descargará
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 </script>
 
 <section class="about-section">
@@ -51,7 +63,7 @@
       </div>
 
       <div class="actions">
-        <button class="download-btn">
+        <button class="download-btn" on:click={downloadCV}>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
           </svg>

@@ -7,34 +7,30 @@
   const projects = [
     {
       id: 1,
-      title: "HEDELWEB",
+      title: "Hedelweb",
       description: "Website to showcase the work, projects and services of a start-up company of web designers and developers.",
-      image: "https://www.2440media.com/sites/default/files/assets/images/blog/The%20Difference%20between%20Web%20Designer%2C%20Web%20Developer%2C%20and%20Web%20Programmer.jpg",
-      link: "https://ejemplo1.com",
+      image: "lasproject.png",
       color: "#931449"
     },
     {
       id: 2,
-      title: "Social Media Dashboard",
-      description: "Dashboard interactivo para gestión de redes sociales con análisis en tiempo real y programación de publicaciones.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      link: "https://ejemplo2.com",
+      title: "Construction company website",
+      description: "Complete overhaul of an outdated website for a construction company",
+      image: "genaysa.png",
       color: "#931449"
     },
     {
       id: 3,
-      title: "AI Task Manager",
-      description: "Gestor de tareas inteligente con sugerencias impulsadas por IA y automatización de flujos de trabajo.",
-      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
-      link: "https://ejemplo3.com",
+      title: "Task Manager",
+      description: "Task manager with AI-driven suggestions and workflow automation.",
+      image: "taskmanager.png",
       color: "#931449"
     },
     {
       id: 4,
-      title: "Portfolio Creative Studio",
-      description: "Sitio web para estudio creativo con animaciones 3D, transiciones fluidas y diseño inmersivo.",
-      image: "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=800&h=600&fit=crop",
-      link: "https://ejemplo4.com",
+      title: "Nightclub website",
+      description: "Website created for a nightclub using various creative effects and with the option to listen to music on the website itself.",
+      image: "clubweb.png",
       color: "#931449"
     }
   ];
@@ -86,9 +82,6 @@
       <h2 class="main-title">
         Projects that Bring Ideas <span class="gradient-text">to Life</span> 
       </h2>
-      <p class="subtitle">
-       Every project is a story of innovation, design and exceptional code
-      </p>
     </div>
 
     <!-- Grid de proyectos -->
