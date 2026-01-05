@@ -5,35 +5,40 @@
   let mouseY = 0;
   
   const projects = [
-    {
-      id: 1,
-      title: "Hedelweb",
-      description: "Website to showcase the work, projects and services of a start-up company of web designers and developers.",
-      image: "lasproject.png",
-      color: "#931449"
-    },
-    {
-      id: 2,
-      title: "Construction company website",
-      description: "Complete overhaul of an outdated website for a construction company",
-      image: "genaysa.png",
-      color: "#931449"
-    },
-    {
-      id: 3,
-      title: "Task Manager",
-      description: "Task manager with AI-driven suggestions and workflow automation.",
-      image: "taskmanager.png",
-      color: "#931449"
-    },
-    {
-      id: 4,
-      title: "Nightclub website",
-      description: "Website created for a nightclub using various creative effects and with the option to listen to music on the website itself.",
-      image: "clubweb.png",
-      color: "#931449"
-    }
-  ];
+  {
+    id: 1,
+    title: "Website for a Spanish teacher",
+    description: " I have just launched a dynamic and fully responsive website for a Spanish teacher. This project focuses on creating an attractive and reliable online presence to attract students.\n\nTechnology used: Astro, JavaScript, Vercel.\n\nObjective: To combine a warm and accessible design with clean and professional functionality.",
+    image: "proyecto1.png",
+    color: "#931449",
+    link: "https://profe-yolanda.vercel.app/"  
+  },
+  {
+    id: 2,
+    title: "Website for law firm",
+    description:   "A modern, responsive website for a law firm. The design balances professionalism with accessibility, featuring clear service descriptions, team profiles, and an intuitive contact system.\n\nBuilt with: Next.js, Tailwind CSS, Vercel.\n\nObjective: To create a trustworthy digital presence that simplifies client engagement and showcases legal expertise effectively.",
+    image: "proyecto2.png",
+    color: "#931449",
+    link: "https://web-muestra-abogados.vercel.app/"  
+  },
+  {
+    id: 3,
+    title: "Website for a Spanish restaurant",
+    description: "Responsive website for a Spanish restaurant showcasing traditional dishes, cultural ambiance, and easy online reservations. Designed to make users taste the experience before visiting.",
+    image: "proyecto3.png",
+    color: "#931449",
+    link: "https://el-matador-d31x.vercel.app/"  
+    
+  },
+  {
+    id: 4,
+    title: "Nightclub website",
+    description: "Website created for a nightclub using various creative effects and with the option to listen to music on the website itself.",
+    image: "clubweb.png",
+    color: "#931449",
+    link: "https://club-bamboleo.vercel.app/"  
+  }
+];
 
   /**
    * @param {{ clientX: number; clientY: number; }} event
